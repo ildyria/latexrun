@@ -7,13 +7,34 @@
 
 X
 
-\errmessage{Funny character ahead¡}
+\errmessage{Funny character aheadï¿½}
 
 \end{document}
 
 %% status: 1
 
 %% output:
-%% T-roundtrip.tex:10: error: Funny character ahead¡
-%%       at \errmessage{Funny character ahead¡}
+%% T-roundtrip.tex:10: error: Undefined control sequence
+%%       at \GenericError  ...                                  #4  \errhelp \@err@     ...
+%%                                                            ^
+%%     from \errmessage{Funny character aheadï¿½  }
+%%                                            ^
+%% T-roundtrip.tex:10: error: Undefined control sequence
+%%       at \GenericError  ...                                \let \@err@               ...
+%%                                                            ^
+%%     from \errmessage{Funny character aheadï¿½  }
+%%                                            ^
+%% T-roundtrip.tex:10: error: Undefined control sequence
+%%       at \GenericError  ...                                \@empty \def \MessageBreak...
+%%                                                            ^
+%%     from \errmessage{Funny character aheadï¿½  }
+%%                                            ^
+%% T-roundtrip.tex:10: error: Undefined control sequence
+%%       at \GenericError  ...                                   \endgroup
+%%                                                            ^
+%%     from \errmessage{Funny character aheadï¿½  }
+%%                                            ^
+%% T-roundtrip.tex:10: error: Funny character ahead\protect \begingroup \immediate \write \@unused   \def \MessageBreak
+%%       at \errmessage{Funny character aheadï¿½}
 %% There were errors; output/x.pdf not updated
+
